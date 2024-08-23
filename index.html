@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nova Encomenda</title>
+</head>
+<body>
+    <form  action="https://api.sheetmonkey.io/form/iipL71YigMdgAAefUsCGX1" method="post">
+        <label>Encomenda: <input type="text" name="Encomenda" required /></label><br>
+        <label>Cliente: <input type="text" name="Cliente" required /></label><br>
+        <label>Quantidade: <input type="number" name="Quantidade Peças" required /></label><br>
+        <label>Valor Final por Unidade (R$/un): <input type="number" name="Valor(un)" required /></label><br>
+        <label>Quantidade de Filamento (g/un): <input type="number" name="Filamento (g/un)" required /></label><br>
+        <label>Cor do Filamento: <select name="Cor do Filamento"><option>Vermehlo</option><option>Verde</option><option>Preto</option><option>Branco</option><option>Azul</option></select></label><br>
+        <label>Lixa?: <input type="radio" name="Lixa" value="Yes" /> Sim <input type="radio" name="Lixa" value="No" /> Não</label><br>
+        <label>Primer?: <input type="radio" name="Primer" value="Yes" /> Sim <input type="radio" name="Primer" value="No" /> Não</label><br>
+        <!--<input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" /><br>-->
+        <input type="submit" value="Enviar" />
+      </form>
+</body>
+</html>
